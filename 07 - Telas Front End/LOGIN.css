@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(63, 100, 170);
+}
+
+
+* {
+    color: white;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a:link{
+    color: white;
+    font-size: 10px;
+}
+
+a:visited{
+
+    color: whitesmoke;
+    font-size: 10px;
+}
+
+a:hover {
+    color: rgb(116, 4, 214)
+}
+
+
+#login-container {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+h1 {
+    text-align: left;
+    font-size: 13px;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-size: 12px;
+}
+
+input[type=email] {
+    background-color: rgb(63, 100, 170);
+    border:0;
+    border-bottom: 2px solid white;
+    height: 16px;
+    font-size: 12px;
+}
+
+input[type=password] {
+    background-color: rgb(63, 100, 170);
+    border:0;
+    border-bottom: 2px solid white;
+    height: 16px;
+    font-size: 12px;
+}
+
+input[type=submit] {
+    background-color: white;
+    color:rgb(112, 136, 180);
+    border: 0;
+    border-radius: 20px;
+    padding: 6px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 11.5px;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(233, 236, 240);
+    transition: .5s;
+}
